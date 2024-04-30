@@ -1,0 +1,71 @@
+---
+
+import Main from '../components/Main.astro';
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout title="Banner">
+	<Main title="Banner">
+        <section class="banner_wrapper">
+            <div class="position-relative">
+                <div class="background_shape"></div>
+                <div class="main-content">
+                    <div class="container-lg container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-lg-7 order-lg-1 order-2 pt-2">
+                                <h3>I'm</h3>
+                                <h1>Ali <br class="d-lg-block d-none"> Asadullah</h1>
+                                <h6>Aspiring Java and React Developer eager to embark on a career in software development. Armed with a solid foundation in Java and React technologies, I am enthusiastic about contributing to innovative projects and honing my skills in a professional setting. With a keen eye for detail and a passion for learning, I am committed to mastering the intricacies of Java and React development to create impactful solutions. Let's connect to explore how I can bring my enthusiasm and dedication to your team!</h6>
+                                <div class="mt-4 social-icon">
+                                    <ul class="list-unstyled d-flex m-0">
+                                        <li class="me-2"><a href="#"><img decoding="async" src="/facebook.svg"></a></li>
+                                        <li class="me-2"><a href="#"><img decoding="async" src="/twitter-icon.svg"></a></li>
+                                        <li class="me-2"><a href="#"><img decoding="async" src="/linkedin.svg"></a></li>
+                                        <li class="me-2"><a href="#"><img decoding="async" src="/youtube.svg"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 order-lg-2 order-1">
+                                <div class="ms-lg-auto text-center">
+                                    <img decoding="async" src="/top-right-img.png" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </Main>
+</Layout>
+
+<style is:global>
+	.banner_wrapper .background_shape{
+                position:absolute;
+                top:0;
+                height:calc(100vh - 4.0625rem);
+                left:0;
+                right:0;
+                background-image:url('/top-background.png') !important;
+                background-position: center center;
+                background-size: cover;
+                clip-path:polygon(100% 0%, 0% 0%, 0% 100%, 100% 62%);
+                z-index:-1;
+            }
+            .banner_wrapper .main-content{
+                position:relative;
+                z-index:1;
+                width:100%;
+                padding-top:6.25rem;
+            }
+
+            .banner_wrapper .social-icon a img{
+                width:3.125rem;
+                height:3.125rem;
+                transition:0.3s ease-in;
+            }
+            .banner_wrapper .social-icon a:hover img{
+                transform:translateY(-0.3125rem);
+            }
+             
+</style>

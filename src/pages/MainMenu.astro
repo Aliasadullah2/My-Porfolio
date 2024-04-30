@@ -1,0 +1,850 @@
+---
+
+import Main from '../components/Main.astro';
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout title="Welcome to Main Menu.">
+	<Main title="Main Menu">
+          <!-- Main Menu --> 
+    <section class="main-menu mt-lg-4 mt-5 main_menu_wrapper">
+        <div class="container-lg container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="accordion" id="accordionExample">
+
+                        <!-- About Wrapper -->
+                        <div class=" about_wrapper">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button " type="button"  >
+                                    <span class="icon-box">
+                                        <img decoding="async" src="/about-icon.svg">
+                                    </span>
+                                    <h3 class="text-white px-4 mb-0">About Me</h3>
+                                </button>
+                            </h2>
+                           
+                                <div class="accordion-body">
+                                     <div class="row">
+                                         <div class="col-lg-6">
+                                             <div class="position-relative">
+                                                 <div class="card card_img">
+                                                     <img decoding="async" src="/about-img.jpg">
+                                                 </div>
+                                                 <div class="card card_detail">
+                                                    <ul class="list-unstyled">
+                                                        <li>
+                                                            <h6>Name</h6>
+                                                            <span>Ali Asadullah</span>
+                                                        </li>
+                                                        <li>
+                                                            <h6>Birthday</h6>
+                                                            <span>June 5, 2000</span>
+                                                        </li>
+                                                        <li>
+                                                            <h6>Mail</h6>
+                                                            <span>aliasadullah2@gmail.com</span>
+                                                        </li>
+                                                        <li>
+                                                            <h6>Phone</h6>
+                                                            <span>+92316-3385523 | +92302-1880711</span>
+                                                        </li>
+                                                        <li>
+                                                            <h6>Address</h6>
+                                                            <span>House No #2130, Street #11, Azam Town Karachi.</span>
+                                                        </li>
+                                                    </ul>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div class="col-lg-6 ps-lg-5 pt-lg-0 pt-5">
+                                            <h3>About Me</h3>
+                                            <h2> Java & Reacts Web Developer</h2>
+                                            <h5>A passionate FrontEnd Developer and BackEnd Web Developer.</h5>
+                                            <p>Aspiring Java and React Developer eager to embark on a career in software development. Armed with a solid foundation in Java and React technologies, I am enthusiastic about contributing to innovative projects and honing my skills in a professional setting. With a keen eye for detail and a passion for learning, I am committed to mastering the intricacies of Java and React development to create impactful solutions. Let's connect to explore how I can bring my enthusiasm and dedication to your team!</p>
+                                            <button class="main-btn my-4">Download CV</button>
+                                        </div>
+                                     </div>
+                                </div>
+                            
+                        </div>
+
+                        <!-- Resume Wrapper -->
+                        <div class="resume_wrapper pt-4">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button">
+                                <span class="icon-box">
+                                    <img decoding="async" src="/resume-icon.svg">
+                                </span>
+                                <h3 class="text-white px-4 mb-0">Resume</h3>
+                            </button>
+                            </h2>
+                            
+                                <div class="accordion-body">
+                                    <div class="row pb-5">
+                                        <div class="col">
+                                            <h3>Resume</h3>
+                                            <h2>Combination of Skill <br class="d-lg-block d-none"> & Experience</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div>
+                                                <div class="title position-relative">
+                                                    <h2>Education</h2>
+                                                    <span class="shape"></span>
+                                                </div>
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <div
+                                                            class="d-sm-flex align-items-center justify-content-between">
+                                                            <div class="mt-4">
+                                                                <h4 class="text-white h4 fw-bold">Computer Sciences
+                                                                </h4>
+                                                                <h5>University Of Sindh</h5>
+                                                            </div>
+                                                            <div class="year">
+                                                                <span>2020 - 2024</span>
+                                                            </div>
+                                                        </div>
+                                                        <p>BACHELOR OF SCIENCE IN COMPUTER SCIENCE (January. 2024 - Completed).</p>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div class="pt-5">
+                                                <div class="title position-relative">
+                                                    <h2>Projects</h2>
+                                                    <span class="shape"></span>
+                                                </div>
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <div
+                                                            class="d-sm-flex align-items-center justify-content-between">
+                                                            <div class="mt-4">
+                                                                <h4 class="text-white h4 fw-bold">ONETIMESHOP – Final Year Project</h4>
+                                                                
+                                                            </div>
+                                                            <!-- <div class="year">
+                                                                <span>2017 - 2022</span>
+                                                            </div> -->
+                                                        </div>
+                                                        <p>Technologies : Spring boot, Hibernate JPA, MYSQL, Reactjs, HTML, CSS, JavaScript, Bootstrap, React Material.</p>
+                                                        <p>Created "ONETIMESHOP," an e-commerce platform with ReactJS frontend, SpringBoot backend, and MySQL database. Implemented three-tiered roles (Buyers, Sellers, Admins), enabling profile customization and Admin oversight. Expertise showcased in full-stack development, UI/UX design, and database management, ensuring a seamless and secure e-commerce experience.</p>
+                                                    </li>
+                                                    <li>
+                                                        <div
+                                                            class="d-sm-flex align-items-center justify-content-between">
+                                                            <div class="mt-4">
+                                                                <h4 class="text-white h4 fw-bold">CRUD - Desktop Application, Java (Swing)</h4>
+                                                                <!-- <h5>Bahanno Digital</h5> -->
+                                                            </div>
+                                                            <!-- <div class="year">
+                                                                <span>2017 - 2022</span>
+                                                            </div> -->
+                                                        </div>
+                                                        <p>Technologies: JAVA, JAVA GUI, MySQL.</p>
+                                                        <p>Developed aDesktop-based Crud ApplicationWith Java Swing Framework And MySQLDatabaseUsing Eclipse.</p>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 ps-lg-5 pt-lg-0 pt-5">
+                                            <div>
+                                                <div class="title position-relative">
+                                                    <h2>Personal Skills</h2>
+                                                    <span class="shape"></span>
+                                                </div>
+                                                <ul class="list-unstyled pt-4 skills">
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">Time Management</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 90%;"></div>
+                                                            <span>90%</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">Effeciency</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 75%;"></div>
+                                                            <span>75%</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">Intigrity</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 80%;"></div>
+                                                            <span>80%</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="pt-5">
+                                                <div class="title position-relative">
+                                                    <h2>Software Skills</h2>
+                                                    <span class="shape"></span>
+                                                </div>
+                                                <ul class="list-unstyled pt-4 skills">
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">Java</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 70%;"></div>
+                                                            <span>70%</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">SpringBoots</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 70%;"></div>
+                                                            <span>70%</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">ReactJS</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 70%;"></div>
+                                                            <span>70%</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">HTML5</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 90%;"></div>
+                                                            <span>90%</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">CSS3</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 75%;"></div>
+                                                            <span>75%</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">JavaScript</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 60%;"></div>
+                                                            <span>60%</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="position-relative mb-4">
+                                                        <h5 class="text-white fw-bold">Bootstrap 5</h5>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 80%;"></div>
+                                                            <span>80%</span>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                        </div>
+
+                        <!-- Portfolio Wrapper -->
+                        <!-- <div class="portfolio_wrapper pt-4">
+                            <h2 class="accordion-header" >
+                            <button class="accordion-button " type="button">
+                                <span class="icon-box">
+                                    <img decoding="async" src="/portfolio-icon.svg">
+                                </span>
+                                <h3 class="text-white px-4 mb-0">Portfolio</h3>
+                            </button>
+                            </h2>
+                            
+                                <div class="accordion-body">
+                                    <div class="row pb-5">
+                                        <div class="col">
+                                            <h3>Portfolio</h3>
+                                            <h2>My Work <br class="d-lg-block d-none"></h2>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab"
+                                        role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="pills-one-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-one" role="tab" aria-controls="pills-one"
+                                                aria-selected="true">All</button>
+                                        </li>
+                                        
+                                    </ul>
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane show active" id="pills-one" role="tabpanel"
+                                            aria-labelledby="pills-one-tab">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img decoding="async" src="./images/portfolio/1.jpg" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img decoding="async" src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">MINIMAL DESIGN</h5>
+                                                            <p class="m-0 text-white">Animated, portfolio</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img decoding="async" src="./images/portfolio/2.jpg" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img decoding="async" src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">MINIMAL DESIGN</h5>
+                                                            <p class="m-0 text-white">Animated, portfolio</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img decoding="async" src="./images/portfolio/3.jpg" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img decoding="async" src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">MINIMAL DESIGN</h5>
+                                                            <p class="m-0 text-white">Animated, portfolio</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img decoding="async" src="./images/portfolio/4.jpg" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img decoding="async" src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">MINIMAL DESIGN</h5>
+                                                            <p class="m-0 text-white">Animated, portfolio</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img decoding="async" src="./images/portfolio/5.jpg" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img decoding="async" src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">MINIMAL DESIGN</h5>
+                                                            <p class="m-0 text-white">Animated, portfolio</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6 mb-4">
+                                                    <div class="portfolio-img">
+                                                        <img decoding="async" src="./images/portfolio/6.jpg" class="w-100 h-100">
+                                                        <div class="hidden-text">
+                                                            <img decoding="async" src="./images/portfolio/portfolio.svg">
+                                                            <h5 class="mb-1 mt-5 text-white">MINIMAL DESIGN</h5>
+                                                            <p class="m-0 text-white">Animated, portfolio</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    </div>
+                                </div>
+                            
+                        </div> -->
+
+                        <!-- Services Wrapper -->
+                        <div class=" services_wrapper pt-4">
+                            <h2 class="accordion-header" >
+                            <button class="accordion-button " type="button">
+                                <span class="icon-box">
+                                    <img decoding="async" src="service-icon.svg">
+                                </span>
+                                <h3 class="text-white px-4 mb-0">Services</h3>
+                            </button>
+                            </h2>
+                            
+                                <div class="accordion-body">
+                                    <div class="row pb-5">
+                                        <div class="col">
+                                            <div class="col">
+                                                <h3>Service</h3>
+                                                <h2>Never Compromise <br class="d-lg-block d-none">with Quality</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-sm-6 mb-4">
+                                            <div class="card border-0">
+                                                <div class="icon_design">
+                                                    <img decoding="async" src="/services-img/1.svg" class="img-fluid"> 
+                                                </div>
+                                                <h3 class="text-white pt-md-5 pt-3 mb-3">Front & BackEnd Development</h3>
+                                                    <p class="text-white m-0">Web development is the building and
+                                                    maintenance of websites. it’s the work that...</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 mb-4">
+                                            <div class="card border-0">
+                                                <div class="icon_design">
+                                                    <img decoding="async" src="/services-img/2.svg" class="img-fluid"> 
+                                                </div>
+                                                <h3 class="text-white pt-md-5 pt-3 mb-3">Web Development</h3>
+                                                    <p class="text-white m-0">Web development is the building and
+                                                    maintenance of websites. it’s the work that...</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 mb-4">
+                                            <div class="card border-0">
+                                                <div class="icon_design">
+                                                    <img decoding="async" src="/services-img/3.svg" class="img-fluid"> 
+                                                </div>
+                                                <h3 class="text-white pt-md-5 pt-3 mb-3">UI / UX Design</h3>
+                                                    <p class="text-white m-0">Web development is the building and
+                                                    maintenance of websites. it’s the work that...</p>
+                                            </div>
+                                        </div> 
+                                        <div class="col-lg-4 col-sm-6 mb-4">
+                                            <div class="card border-0">
+                                                <div class="icon_design">
+                                                    <img decoding="async" src="/services-img/4.svg" class="img-fluid"> 
+                                                </div>
+                                                <h3 class="text-white pt-md-5 pt-3 mb-3">Graphic Design</h3>
+                                                    <p class="text-white m-0">Web development is the building and
+                                                    maintenance of websites. it’s the work that...</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 mb-4">
+                                            <div class="card border-0">
+                                                <div class="icon_design">
+                                                    <img decoding="async" src="/services-img/5.svg" class="img-fluid"> 
+                                                </div>
+                                                <h3 class="text-white pt-md-5 pt-3 mb-3">E-commerce Solutions</h3>
+                                                    <p class="text-white m-0">Web development is the building and
+                                                    maintenance of websites. it’s the work that...</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 mb-4">
+                                            <div class="card border-0">
+                                                <div class="icon_design">
+                                                    <img decoding="async" src="/services-img/6.svg" class="img-fluid"> 
+                                                </div>
+                                                <h3 class="text-white pt-md-5 pt-3 mb-3">Database Management</h3>
+                                                    <p class="text-white m-0">Web development is the building and
+                                                    maintenance of websites. it’s the work that...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                        </div>
+
+                        <!-- Contact Wrapper -->
+                        <div class="contact_wrapper pt-4">
+                            <h2 class="accordion-header" >
+                            <button class="accordion-button " type="button" >
+                                <span class="icon-box">
+                                    <img decoding="async" src="/contact-icon.svg">
+                                </span>
+                                <h3 class="text-white px-4 mb-0">Contact</h3>
+                            </button>
+                            </h2>
+                            
+                                <div class="accordion-body">
+                                    <div class="row pb-5">
+                                        <div class="col">
+                                            <div class="col">
+                                                <h3>Hire Me</h3>
+                                                <h2>Contact me to get <br class="d-lg-block d-none">your work done</h2>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="row">
+                                         <div class="col-xl-5 col-md-6 pb-md-0 pb-5">
+                                             <ul class="list-unstyled">
+                                                <li class="d-flex align-items-center mb-4">
+                                                    <span class="icon_design">
+                                                        <img decoding="async" src="/call.svg">
+                                                    </span>
+                                                    <div class="ps-4">
+                                                        <h5 class="fw-bold text-white mb-0">Call Me</h5>
+                                                        <p class="m-0">+923163385523 | +923021880711</p>
+                                                    </div>
+                                                </li>
+                                                <li class="d-flex align-items-center mb-4">
+                                                    <span class="icon_design">
+                                                        <img decoding="async" src="/emai.svg">
+                                                    </span>
+                                                    <div class="ps-4">
+                                                        <h5 class="fw-bold text-white mb-0">Email Us</h5>
+                                                        <p class="m-0">aliasadullah2@gmail.com</p>
+                                                    </div>
+                                                </li>
+                                                <li class="d-flex align-items-center mb-4">
+                                                    <span class="icon_design">
+                                                        <img decoding="async" src="/map.svg">
+                                                    </span>
+                                                    <div class="ps-4">
+                                                        <h5 class="fw-bold text-white mb-0">Address</h5>
+                                                        <p class="m-0"> House No #2130, Street #11, Azam Town Karachi.</p>
+                                                    </div>
+                                                </li>
+                                             </ul>
+                                         </div>
+                                         <div class="col-xl-7 col-md-6">
+                                             <form>
+                                                 <div class="row">
+                                                     <div class="col-sm-6 col-12 mb-4">
+                                                         <input type="text" class="form-control" placeholder="Your Name" autocomplete="off">
+                                                     </div>
+                                                     <div class="col-sm-6 col-12 mb-4">
+                                                        <input type="email" class="form-control" placeholder="Your Email" autocomplete="off">
+                                                    </div>
+                                                 </div>
+                                                 <div class="row">
+                                                    <div class="col-sm-6 col-12 mb-4">
+                                                        <input type="number" class="form-control" placeholder="Your Phone" autocomplete="off">
+                                                    </div>
+                                                    <div class="col-sm-6 col-12 mb-4">
+                                                       <input type="text" class="form-control" placeholder="Subject" autocomplete="off">
+                                                   </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12 mb-4">
+                                                        <input class="textarea form-control" placeholder="Your Message Here...">
+                                                    </div>
+                                                </div>
+                                                <button class=" main-btn">Submit Now</button>
+                                             </form>
+                                         </div>
+                                    </div> 
+                                </div>
+                                
+                            
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    </Main>
+</Layout>
+
+<style is:global>
+    
+	      
+            /* 4 Accordian Menu */
+            .main_menu_wrapper .accordion-item{
+                background-color:transparent;
+                margin:0 0 1.5625rem;
+            }
+            .main_menu_wrapper .accordion-header .accordion-button{
+                margin:0 .3125rem;
+                background-color:var(--dark-color);
+                box-shadow: 1.125rem 1.125rem 3rem rgb(108 99 255 / 10%);
+                border-radius: .9375rem !important;
+                line-height: 8.875rem;
+                padding:0;
+                padding-right:3.125rem;
+                -webkit-transition:all .3s ease;
+                -moz-transition:all .3s ease;
+                -ms-transition:all .3s ease;
+                -o-transition:all .3s ease;
+                transition:all .3s ease;
+            }
+            .main_menu_wrapper .accordion-header .icon-box{
+                width:8.875rem;
+                height:100%;
+                border-radius: .9375rem 0 0 .9375rem;
+                background-color:var(--secondary-color);
+                text-align: center;
+            }
+            .main_menu_wrapper .accordion-header .accordion-button:after{
+                position:absolute;
+                right:0;
+                width:8.875rem;
+                height:100%;
+                border-radius: 0 .9375rem .9375rem 0;
+                background-image:url('../images/up-arrow.svg');
+                background-color:var(--secondary-color);
+                background-size: 2.7rem;
+                background-position: center center;
+                -webkit-transition:all .3s ease;
+                -moz-transition:all .3s ease;
+                -ms-transition:all .3s ease;
+                -o-transition:all .3s ease;
+                transition:all .3s ease;
+            }
+            .main_menu_wrapper .accordion-header .accordion-button:not(.collapsed)::after{
+                border-radius: .9375rem 0 0 .9375rem;
+                background-image:url("/down-arrow.svg");
+            }
+            .main_menu_wrapper .accordion-header:hover button,
+            .main_menu_wrapper .accordion-header .accordion-button:not(.collapsed){
+                background-color:var(--primary-color);
+            }
+            .main_menu_wrapper .accordion-body{
+                background-color:var(--dark-color);
+                margin-top:1.5625rem;
+                padding:4.375rem;
+                border-radius: .9375rem;
+            }
+            
+            /* 4.1 about */
+            .about_wrapper .accordion-body .card_img{
+                width:60%;
+                border:0;
+                border-radius: .9375rem;
+            }
+            .about_wrapper .accordion-body .card_img img{ 
+                border-radius: .9375rem;
+            }
+            .about_wrapper .card_detail{
+                position:absolute;
+                top:3.75rem;
+                right:1.25rem;
+                z-index:1;
+                width:47%;
+                background-color:var(--primary-color);
+                padding:1.5625rem 1.8rem;
+                border-radius: .9375rem;
+            }
+            .about_wrapper .card_detail ul li{
+                border-bottom:.0625rem dashed rgba(255,255,255,.3);
+                padding:.625rem 0;
+            } 
+            
+            /*4.2 resume */
+            .resume_wrapper .title h2{
+                padding-left:2.5rem;
+                font-size:2.1875rem;
+            }
+            .resume_wrapper .shape{
+                position:absolute;
+                left:0;
+                top:50%;
+                transform:translateY(-50%);
+                width:1.5rem;
+                height:1.5rem;
+                border-radius: 100%;
+                border:.1875rem solid var(--primary-color);
+            } 
+            .resume_wrapper .shape:before{
+                position:absolute;
+                content:'';
+                width:.5rem;
+                height:.5rem;
+                border-radius: 100%;
+                background-color:var(--primary-color);
+                top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+            }
+            .resume_wrapper .year span{
+                font-size: 1.25rem;
+                color:var(--primary-color);
+                border:.0625rem solid var(--primary-color);
+                border-radius: 3.125rem;
+                padding:.5rem 2.1875rem .4375rem;
+            }
+            
+            .resume_wrapper .progress{
+                height:.4375rem;
+                border-radius: 3.125rem;
+                background-color:var(--dark-light-color);
+                opacity:0.80;
+                margin-top:1.5625rem;
+            }
+            
+            .resume_wrapper .progress-bar{
+                background-color: var(--primary-color);
+                position:absolute;
+                height:.3125rem;
+                top:3.125rem;
+                border-radius: 3.125rem;
+            }
+            .resume_wrapper .progress span{
+                position:absolute;
+                right:0;
+                top:1.25rem;
+                color:var(--primary-color);
+            }
+            
+            
+            /*4.3 portfolio  */
+            .portfolio_wrapper .nav-link{
+                color:var(--text-white);
+                font-weight: 600;
+                font-size:1.125rem;
+                letter-spacing:.0625rem;
+                text-align: center;
+            }
+            .portfolio_wrapper .nav-link.active,
+            .portfolio_wrapper .show>.nav-link{
+                background-color:transparent;
+                color:var(--primary-color);
+            }
+            .portfolio_wrapper .portfolio-img{
+                width:100%;
+                min-height: 23.75rem;
+                height:100%;
+                position:relative;
+                border-radius: .9375rem;
+                cursor:pointer;
+            } 
+            .portfolio_wrapper .portfolio-img>img{
+                border-radius: .9375rem;
+                object-fit: cover;
+                object-position:center;
+            }
+            .portfolio_wrapper .portfolio-img .hidden-text{
+                position:absolute;
+                top:0;
+                bottom:0;
+                left:0;
+                right:0;
+                height:0;
+                z-index:1;
+                background-color:rgba(255,69,27,.72);
+                border-radius: .625rem;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                -webkit-transition:all 0.3s linear;
+                -moz-transition:all 0.3s linear;
+                -ms-transition:all 0.3s linear;
+                -o-transition:all 0.3s linear;
+                transition:all 0.3s linear;
+                overflow:hidden;
+                
+            }
+            .portfolio_wrapper .portfolio-img:hover .hidden-text{
+                height:100%;
+            }
+            
+            
+            /* 4.4 services */
+            .services_wrapper .card{
+                border-radius: .9375rem;
+                background-color:var(--bg-dark-gray);
+                padding:3.75rem 2.5rem 3.625rem;
+                text-align: center;
+                align-items: center;
+                cursor:pointer;
+                -webkit-transition:all 0.3s ease;
+                -ms-transition:all 0.3s ease;
+                -moz-transition:all 0.3s ease;
+                -o-transition:all 0.3s ease;
+                transition:all 0.3s ease;
+            }
+            .services_wrapper .card:hover{
+                background-color:var(--primary-color);
+            }
+             
+            
+            /* 4.5 Testimonial */
+            .testimonial_wrapper .carousel-indicators{
+                bottom:-2.8125rem;
+            }
+            .testimonial_wrapper .carousel-indicators[data-bs-target]{
+                background-color:var(--secondary-color);
+            }
+            .testimonial_wrapper .card{
+                padding:3.125rem 3.125rem 3.125rem 0;
+                background-color:var(--bg-dark-gray);
+                border-radius: 0 .5rem .5rem 0;
+            }
+            .testimonial_wrapper .profile-box{
+                padding:1.875rem;
+                background-color:var(--primary-color);
+                border-radius: .5rem 0 0 .5rem;
+            }
+            .testimonial_wrapper .profile-box img{
+                border-radius: .625rem 3.125rem;
+            }
+            .testimonial_wrapper .desc-box{
+                padding-left:2.5rem;
+            } 
+            /* 4.6 blog */
+            .blog_wrapper .card{
+                background-color:var(--bg-dark-gray);
+                border-radius: .9375rem;
+                overflow:hidden;
+            }
+            .blog_wrapper .card img{
+                border-radius: .9375rem .9375rem 0 0;
+                -webkit-transition:all 0.3s ease;
+                -moz-transition:all 0.3s ease;
+                -ms-transition:all 0.3s ease;
+                -o-transition:all 0.3s ease;
+                transition:all 0.3s ease;
+                cursor:pointer;
+            } 
+            .blog_wrapper .card img:hover{
+                transform:scale(1.1);
+            }
+            .blog_wrapper .card h5{
+                font-weight: 700;
+                color:var(--primary-text);
+            }
+            
+            /* 4.7 contact  */
+            .contact_wrapper form .form-control:focus{
+                box-shadow:none;
+            }
+            .contact_wrapper form .form-control{
+                width:100%;
+                height:3.75rem; 
+                border-radius: .625rem !important;
+                background-color:transparent;
+                color:var(--text-gray);
+                border:.0625rem solid rgb(255 255 255 / 15%) !important;
+            }
+            .contact_wrapper form input::placeholder,
+            .contact_wrapper form .textarea::placeholder{
+                color:var(--text-gray);
+            }
+            .contact_wrapper form .textarea.form-control{
+                height:14.375rem;
+            }
+
+            
+            /* curcor design */
+            .cursor{
+                width:1.875rem;
+                height:1.875rem;
+                border-radius:100%;
+                border:.0625rem solid var(--primary-color);
+                transition:all 200ms ease-out;
+                position:fixed;
+                pointer-events: none;
+                left:0;
+                top:0;
+                transform:translate(calc(-50% + .9375rem), -50%);
+                z-index:9;
+            }
+            .cursor2{
+                width:.5rem;
+                height:.5rem;
+                border-radius:100%; 
+                background-color:var(--primary-color); 
+                position:fixed;
+                pointer-events: none;
+                left:0;
+                top:0; 
+                transform:translate(-50%,-50%);
+                transition:width .3s, height .3s, opacity .3s;
+                z-index:9;
+            }
+             
+
+</style>

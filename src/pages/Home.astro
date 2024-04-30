@@ -1,0 +1,56 @@
+---
+
+import Main from '../components/Main.astro';
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout title="Welcome to my Portfolio.">
+	
+
+<Main title="Nav">
+    <header class="header_wrapper">
+        <nav class="navbar navbar-light fixed-top">
+            <div class="container-lg container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img decoding="async" src="logo.png" class="img-fluid" alt="logo">
+                </a>
+                <ul class="m-0 list-unstyled">
+                    <li><a href="#" class="main-btn">Download CV</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+</Main>
+
+
+
+        
+</Layout>
+
+<style is:global>
+        /* 2 Navbar */
+        .header_wrapper .navbar{
+                padding:0.9375rem 0;
+                -webkit-transition:all .2s linear;
+                -moz-transition:all .2s linear;
+                -ms-transition:all .2s linear;
+                -o-transition:all .2s linear;
+                transition:all .2s linear;
+            }
+            .header_wrapper .navbar-brand img{
+                max-width:14.375rem;
+                height:auto;
+            } 
+            
+            .header-scrolled{
+                position:fixed;
+                top:0;
+                left:0;
+                width:100%;
+                background-color:var(--dark-color);
+                -webkit-box-shadow: 0 0.25rem 0.375rem 0 rgba(12,0,46,.05);
+                box-shadow: 0 0.25rem 0.375rem 0 rgba(12,0,46,.05);
+            }
+</style>
